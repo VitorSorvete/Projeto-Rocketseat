@@ -13,10 +13,10 @@ function toggleMode() {
     //substituir a imagem
     if (html.classList.contains("light")) {
         //se tiver light, adicionar a imagem light
-        img.setAttribute("src", "./assets/avatar-light.png");
+        img.setAttribute("src", "./assets/fotovitor.png");
     }else {
         //se tiver sem light, manter a imagem normal
-        img.setAttribute("src", "./assets/avatar.png");
+        img.setAttribute("src", "./assets/fotovitorfrente.png");
     }
 
 }
